@@ -48,7 +48,6 @@ public class T841 {
         list4.add(3);
         list4.add(2);
         List<Integer> list5 = new ArrayList<>();
-
         rooms.add(list1);
         rooms.add(list2);
         rooms.add(list3);
@@ -72,15 +71,11 @@ public class T841 {
                         continue;
                     }
                 }
-
                 allkeys.addAll(keys);
-
             }else {
                 i++;
             }
-
         }
-
         if(allkeys.size() == rooms.size()){
             return true;
         }
